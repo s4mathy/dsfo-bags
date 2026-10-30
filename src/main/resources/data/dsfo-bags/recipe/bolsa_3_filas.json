@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["LPL", "CEC", "LDL"],
+  "key": {
+    "L": { "item": "minecraft:leather" },
+    "P": { "item": "minecraft:ender_pearl" },
+    "C": [{ "item": "minecraft:oxidized_copper" }, { "item": "minecraft:waxed_oxidized_copper" }],
+    "E": { "item": "minecraft:lead" },
+    "D": { "item": "minecraft:armadillo_scute" }
+  },
+  "result": { "id": "dsfo-bags:bolsa_3_filas", "count": 1 }
+}

@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["dsfo-bags:bolsa_3_filas"]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["has_ingredient"]],
+  "rewards": {
+    "recipes": ["dsfo-bags:bolsa_3_filas_dye"]
+  }
+}

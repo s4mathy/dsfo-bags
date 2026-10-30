@@ -1,0 +1,31 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:chorus_fruit",
+              "minecraft:ender_pearl",
+              "minecraft:crying_obsidian",
+              "minecraft:end_crystal",
+              "minecraft:nether_wart",
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dsfo-bags:bolsa_phora"
+    ]
+  }
+}

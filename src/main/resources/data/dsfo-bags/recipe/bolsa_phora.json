@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["CPC", "YNY", "WHW"],
+  "key": {
+    "P": { "item": "minecraft:ender_pearl" },
+    "C": { "item": "minecraft:chorus_fruit" },
+    "Y": { "item": "minecraft:crying_obsidian" },
+    "H": { "item": "minecraft:chest" },
+    "W": { "item": "minecraft:nether_wart" },
+    "N": { "item": "minecraft:end_crystal" }
+  },
+  "result": { "id": "dsfo-bags:bolsa_phora", "count": 1 }
+}

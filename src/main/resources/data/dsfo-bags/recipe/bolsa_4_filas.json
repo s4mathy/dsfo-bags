@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["PEP", "GHR", "LFL"],
+  "key": {
+    "P": { "item": "minecraft:ender_pearl" },
+    "E": { "item": "minecraft:lead" },
+    "G": { "item": "minecraft:gold_block" },
+    "H": { "item": "minecraft:chest" },
+    "R": { "item": "minecraft:bricks" },
+    "L": { "item": "minecraft:leather" },
+    "F": { "item": "minecraft:rotten_flesh" }
+  },
+  "result": { "id": "dsfo-bags:bolsa_4_filas", "count": 1 }
+}

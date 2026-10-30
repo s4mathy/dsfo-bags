@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crying_obsidian",
+              "minecraft:obsidian",
+              "minecraft:amethyst_shard",
+              "minecraft:ender_eye",
+              "minecraft:chest"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dsfo-bags:bolsa_ender"
+    ]
+  }
+}

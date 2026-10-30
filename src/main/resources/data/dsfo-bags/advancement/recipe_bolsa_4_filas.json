@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "has_ingredient": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather",
+              "minecraft:gold_block",
+              "minecraft:ender_pearl",
+              "minecraft:string",
+              "minecraft:rotten_flesh",
+              "minecraft:chest",
+              "minecraft:bricks"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_ingredient"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "dsfo-bags:bolsa_4_filas"
+    ]
+  }
+}

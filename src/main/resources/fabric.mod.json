@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "dsfo-bags",
+	"version": "${version}",
+	"name": "DSFO BAGS",
+	"description": "Bolsas portatiles (Primitiva, Glebanoide, Ender y Phora).",
+	"authors": ["Me!"],
+	"license": "CC0-1.0",
+	"icon": "assets/dsfo-bags/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["bags.dsfo.DSFOBAGS"],
+		"client": ["bags.dsfo.client.DSFOBAGSClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

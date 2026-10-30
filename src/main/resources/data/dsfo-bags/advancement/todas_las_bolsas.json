@@ -1,0 +1,25 @@
+{
+  "parent": "minecraft:story/root",
+  "display": {
+    "icon": { "id": "dsfo-bags:bolsa_ender" },
+    "title": { "translate": "advancement.dsfo-bags.todas_las_bolsas.title" },
+    "description": { "translate": "advancement.dsfo-bags.todas_las_bolsas.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "tiene_las_tres": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": "dsfo-bags:bolsa_3_filas" },
+          { "items": "dsfo-bags:bolsa_4_filas" },
+          { "items": "dsfo-bags:bolsa_ender" },
+          { "items": "dsfo-bags:bolsa_phora" }
+        ]
+      }
+    }
+  }
+}
