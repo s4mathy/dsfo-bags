@@ -14,7 +14,16 @@ jobs:
       - uses: gradle/actions/setup-gradle@v4
         with:
           gradle-version: 8.10.2
-      - run: gradle build
+      - name: Compilar
+        run: |
+          set +e
+          gradle build --console=plain --stacktrace > build.log 2>&1
+          code=$?
+          if [ $code -ne 0 ]; then
+            msg=$(grep -E "error:|warning: \[|What went wrong|Could not|Caused by|FAILURE|symbol:|location:|^> " build.log | head -60 | head -c 3500 | sed ':a;N;$!ba;s/%/%25/g;s/\r/%0D/g;s/\n/%0A/g')
+            echo "::error title=Fallo de build::$msg"
+          fi
+          exit $code
       - uses: actions/upload-artifact@v4
         with:
           name: dsfo-bags-jar
